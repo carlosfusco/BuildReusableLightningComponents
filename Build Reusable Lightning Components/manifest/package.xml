@@ -331,10 +331,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>MyDomainDiscoverableLogin</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>NamedCredential</name>
 	</types>
 	<types>
@@ -404,10 +400,6 @@
 	<types>
 		<members>*</members>
 		<name>RecordActionDeployment</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>RedirectWhitelistUrl</name>
 	</types>
 	<types>
 		<members>ApexDevNet</members>
