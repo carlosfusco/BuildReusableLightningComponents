@@ -24,7 +24,7 @@
           aura:id="theList"
         >
           <lightning:layoutItem size="2" padding="horizontal-small">
-            <!--put Indicator Badge here-->
+            <c:IndicatorBadge badge="{!thisBadge}" />
           </lightning:layoutItem>
         </aura:iteration>
       </lightning:layout>
