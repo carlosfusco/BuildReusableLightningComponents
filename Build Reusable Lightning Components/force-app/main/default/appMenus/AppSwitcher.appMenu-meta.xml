@@ -104,4 +104,8 @@
         <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>ZBSLightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
