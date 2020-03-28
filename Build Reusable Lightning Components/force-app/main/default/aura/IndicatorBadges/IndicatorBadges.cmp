@@ -6,6 +6,11 @@
   <aura:attribute name="objLabel" type="String" />
   <aura:attribute name="badgeList" type="Object[]" />
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <force:recordData
+    recordId="{!v.recordId}"
+    layoutType="FULL"
+    recordUpdated="{!c.doInit}"
+  />
   <lightning:card
     iconName="standard:coaching"
     title="{! v.objLabel +' Indicators'}"
